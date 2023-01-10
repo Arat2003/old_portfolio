@@ -1,0 +1,40 @@
+.about-section {
+	background: linear-gradient(180deg, var(--PALETTE-1), var(--PALETTE-2));
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: column nowrap;
+	overflow: visible;
+}
+
+.about__face-img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border: 5px double #333;
+	border-radius: 50%;
+	margin-top: 80px;
+}
+
+.about__text-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.text-wrapper__card {
+	background-color: rgba(255, 255, 255, 0.2);
+	max-width: 80ch;
+	padding: 1em;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px #333;
+}
+
+.text-wrapper__card p {
+	line-height: 1.5;
+}
+
+.text-wrapper__card ul {
+	margin-left: 2rem;
+	list-style: circle;
+}
