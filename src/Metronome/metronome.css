@@ -2,23 +2,26 @@
 	/* display: flex;
 	flex-flow: column nowrap;
 	justify-content: center; */
-	/* max-width: 30%; */
+	max-width: 30vmax;
 	margin: 0 auto;
 	padding: 30px;
 	text-align: center;
 }
 
-.slider-title {
-	font-size: 2rem;
+.metronome__slider {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	margin: 10vmin 0;
 }
 
-.slider-input {
-	width: 100%;
-	margin: 10px;
+.metronome__slider .divider {
+	border-top: 1px solid #000;
+	margin: 10px 0;
 }
 
 .metronome__button {
-	background-color: cyan;
+	background-color: lightblue;
 	padding: 1rem;
 	border: 1px solid #000;
 	border-radius: 2px;

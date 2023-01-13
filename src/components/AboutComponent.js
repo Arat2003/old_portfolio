@@ -51,6 +51,20 @@ const AboutComponent = () => {
 						<li>Shawshank Redemption</li>
 					</ul>
 				</div>
+
+				<div className="text-wrapper__card">
+					<p>
+						I am very interested in learning more about AI, machine learning and
+						especially Natural Language Processing. While I was developing
+						Discord Bots, I wished that I could take a step further and dive
+						deeper into sentiment analysis to fcreate speech-recognition bots or
+						even my own HAL-9000. However, I knew that I didn't have enough
+						experience to do so. That made me enroll at USC, where I believe
+						that I will gain such knowledge that will allow me to be a part of
+						the development of a branch that we will constantly see in the
+						future.
+					</p>
+				</div>
 			</div>
 		</section>
 	);

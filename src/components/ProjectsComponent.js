@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import "./styles/projects.css";
 import minestats from "../images/minestats.png";
+import metronome from "../images/metronome.png";
 
 const projects = [
 	{
@@ -10,7 +11,15 @@ const projects = [
 		title: "Minestats",
 		alt: "Minestats Command Execution",
 		description:
-			"Discord bot developed for Hypixel players who want to check their stats in an easy and efficient way.",
+			"Discord bot developed for Hypixel players who want to check their stats in an easy and efficient way. Haven't updated after Discord's API most recent update.",
+	},
+	{
+		image: metronome,
+		link: "/project/metronome",
+		title: "Simple Metronome",
+		alt: "Metronome Project",
+		description:
+			"Simple metronome focused on applying new knowledge of audio and useEffect hook.",
 	},
 ];
 

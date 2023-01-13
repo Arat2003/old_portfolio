@@ -11,7 +11,11 @@ const ProjectCard = ({ project }) => {
 				alt={alt}
 				className="card__image"
 			/>
-			<a href={link}>
+			<a
+				href={link}
+				target="_blank"
+				rel="noreferrer"
+			>
 				<h2>{title}</h2>
 			</a>
 			<p>{description}</p>
